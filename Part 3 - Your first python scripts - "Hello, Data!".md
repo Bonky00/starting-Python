@@ -19,7 +19,8 @@ print("Hello, World!")
 	![Pasted image 20250703012026](https://github.com/user-attachments/assets/2003b663-5023-4ac9-9731-e90721958417)
 
 	-  **Option 2: Open the Integrated Terminal:** If your terminal is not open, go to **Terminal > New Terminal**. Make sure your virtual environment `(venv)` is active at the beginning of the prompt.
-    ![Pasted image 20250703010941](https://github.com/user-attachments/assets/661f5e1f-6a34-4fd5-b25d-122448993ad7)
+    ![Pasted image 20250703010941](https://github.com/user-attachments/assets/4b0e03f5-5e5f-4293-89d3-ee2a999ea107)
+
 
 
 ### Step 2: Working with Data - Introducing Pandas DataFrames
@@ -68,7 +69,8 @@ print(df[df['Age'] > 25])
 - **Run Your Script:**: In the same way you ran 'hello_world.py'
 
 **What you'll see:** The output will show your data nicely formatted as a table, then just the names, and finally only the rows for Bob and David. This shows how easy it is to create, view, and filter data with DataFrames!
-![Pasted image 20250703012059](https://github.com/user-attachments/assets/94456876-a93a-4f16-a5d1-a944367f8713)
+![Pasted image 20250703012059](https://github.com/user-attachments/assets/429605a6-b14d-41fb-9e50-528dbb5ab531)
+
 
 
 ### Step 3: Visualizing Data - Introducing Matplotlib
@@ -169,4 +171,5 @@ except Exception as e:
 - We've added a `try...except` block. This is a good programming practice to gracefully handle potential errors, like if the file isn't found.
 4. **Save your file**
 5. **Run the script**
-![Pasted image 20250703013835](https://github.com/user-attachments/assets/cc279d4d-0070-4586-8d2a-3d31bf06441c)
+![Pasted image 20250703013835](https://github.com/user-attachments/assets/7858e43c-dc53-43cd-b061-3c579f67250e)
+
