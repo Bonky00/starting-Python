@@ -35,4 +35,5 @@ VS Code is highly customisable through extensions. To make it great for Python d
 2. **Search for Python:** In the search bar at the top of the Extensions view, type `Python`.    
 3. **Install the Official Python Extension:** You should see an extension named **"Python"** published by Microsoft. Click the **"Install"** button next to it.    
     - This extension provides features like code completion, debugging, linting, and more, which are incredibly helpful for writing Python code
+
 ![Pasted image 20250703003758](https://github.com/user-attachments/assets/be4120fb-2b18-4c0c-a0fb-60a3f9cbb49b)
