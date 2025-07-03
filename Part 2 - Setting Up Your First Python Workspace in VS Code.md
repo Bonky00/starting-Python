@@ -19,7 +19,7 @@ Now, let's tell VS Code about this new project folder.
 3. **Trust the Workspace (if prompted):** VS Code might ask if you "trust the authors of the files in this folder." Since you just created it, you can safely click **"Yes, I trust the authors"** or **"Trust Folder and Enable All Features."** This allows VS Code to enable full functionality for your project.
     
 You'll now see your project folder listed in the **Explorer** sidebar on the left side of VS Code. This is where you'll see all your project files and folders.
-![[Pasted image 20250703004707.png]]
+![Pasted image 20250703004707](https://github.com/user-attachments/assets/312a30c7-698d-4555-b43f-211ad157b2ca)
 
 ### Step 3: Create Your First Python File
 
@@ -34,7 +34,8 @@ Now let's create the actual Python file where you'll write your code.
         
 
 You'll now see `hello_world.py` listed under your `my_first_python_project` folder in the Explorer, and a new empty editor tab will open on the right, ready for you to type your Python code!
-![[Pasted image 20250703004842.png]]
+![Pasted image 20250703004842](https://github.com/user-attachments/assets/8b6692eb-9152-4807-b064-19f20896e4c6)
+
 ### Step 4:  Select Your Python Interpreter
 
 VS Code needs to know _which_ Python installation to use for your project, especially if you have multiple versions on your system.
@@ -49,7 +50,8 @@ NOTE: This may be detected automatically, but always good to make sure when star
     - A list of detected Python interpreters will appear at the top of your VS Code window. Select the one you just installed (it will likely be the latest version of Python 3, often labeled as `Recommended`).        
 
 This step ensures that VS Code is using the correct Python installation to run your scripts.
-![[Pasted image 20250703005136.png]]
+![Pasted image 20250703005136](https://github.com/user-attachments/assets/f451cb05-3b4f-493d-ab2e-1db63fe53b92)
+
 ### Step 5: Optional but Recommended to keep work neat and clean - Create a Python Virtual Environment
 
 **What is a Virtual Environment and Why Do We Need It?**
@@ -68,15 +70,21 @@ A Python **virtual environment** is like creating a separate, isolated box for e
 
 1. At the top of the window there is a search/command bar. In the bar type a greater than symbol (>) to look through commands
 2. Start to type "Python: Create Environment..." unil the command shows up. Click this option. 
-![[Pasted image 20250703005530.png]]
+![Pasted image 20250703005530](https://github.com/user-attachments/assets/ae6b0cc6-7a1f-4650-b46e-694f37b37a76)
+
 3. Click the option that says "Venv"
-![[Pasted image 20250703005626.png]]
+![Pasted image 20250703005626](https://github.com/user-attachments/assets/33781b57-f6c7-450b-9872-a9c6f4a067bc)
+
 4. Click the python version you want to use. (you will likely only have the one version that you installed from Part 1)
-![[Pasted image 20250703005730.png]]
+![Pasted image 20250703005730](https://github.com/user-attachments/assets/1f5e1f5a-0f5c-499c-b4b1-58dba7f95ebf)
+
 5. The virtual environment should be automatically detected once it is done being created. 
 	- You will see a new colder in the working folder. This is where all of the project specific '.venv' files will be stored. You will not need to touch anything in there.
 	- Additionally you will know you are working in the virtual environment because the python interpreter will have changed to the version you selected with (venv) in the name
-	![[Pasted image 20250703005955.png]]
-![[Pasted image 20250703010116.png]]
+
+![Pasted image 20250703005955](https://github.com/user-attachments/assets/3b1aae1a-6c11-4644-858c-17766afa87b4)
+
+![Pasted image 20250703010116](https://github.com/user-attachments/assets/f9b9825e-5443-4dad-85b6-4f25e8e26dd6)
+
 
 
