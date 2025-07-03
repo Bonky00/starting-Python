@@ -15,7 +15,7 @@
 	python --version
 	```
 	- You should see something like `Python 3.x.x` displayed, confirming that Python is installed. If you get an error, double-check that you checked the "Add python.exe to PATH" option during installation
-![Pasted image 20250703003931](https://github.com/user-attachments/assets/9b7a7dab-d7c6-41fa-af68-c069dd09528a)
+![Screenshot From 2025-07-03 18-38-27](https://github.com/user-attachments/assets/c629d4f4-eb30-43bb-befb-bda0da51a245)
 
 ## Step 2: Install Visual Studio Code (VS Code)
 VS Code is where you'll write and manage your Python code.
