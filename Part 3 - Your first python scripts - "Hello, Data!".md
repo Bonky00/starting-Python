@@ -15,9 +15,12 @@ print("Hello, World!")
 3. **Save Your File:** Go to **File > Save** (or press `Ctrl + S`).   
 4. **Run Your Script:**   
 	- **Option 1: Click Run Python File at the top of the file.** 
-	![[Pasted image 20250703012026.png]]
-    - **Option 2: Open the Integrated Terminal:** If your terminal is not open, go to **Terminal > New Terminal**. Make sure your virtual environment `(venv)` is active at the beginning of the prompt.
-    ![[Pasted image 20250703010941.png]]
+
+	![Pasted image 20250703012026](https://github.com/user-attachments/assets/2003b663-5023-4ac9-9731-e90721958417)
+
+	-  **Option 2: Open the Integrated Terminal:** If your terminal is not open, go to **Terminal > New Terminal**. Make sure your virtual environment `(venv)` is active at the beginning of the prompt.
+    ![Pasted image 20250703010941](https://github.com/user-attachments/assets/661f5e1f-6a34-4fd5-b25d-122448993ad7)
+
 
 ### Step 2: Working with Data - Introducing Pandas DataFrames
 
@@ -34,6 +37,8 @@ First, we need to install the Pandas library into our virtual environment.
 **Write the Data Code:** In `simple_data.py`, type the following code:
 import pandas as pd # This line imports the pandas library
 ```python
+
+
 import pandas as pd # This line imports the pandas library
 
 # Create some sample data as a Python dictionary
@@ -58,13 +63,13 @@ print(df['Name'])
 print("\nPeople older than 25:")
 print(df[df['Age'] > 25])
 
-
 ```
 - **Save Your File:** Save `simple_data.py`.    
 - **Run Your Script:**: In the same way you ran 'hello_world.py'
 
 **What you'll see:** The output will show your data nicely formatted as a table, then just the names, and finally only the rows for Bob and David. This shows how easy it is to create, view, and filter data with DataFrames!
-![[Pasted image 20250703012059.png]]
+![Pasted image 20250703012059](https://github.com/user-attachments/assets/94456876-a93a-4f16-a5d1-a944367f8713)
+
 
 ### Step 3: Visualizing Data - Introducing Matplotlib
 
@@ -164,4 +169,4 @@ except Exception as e:
 - We've added a `try...except` block. This is a good programming practice to gracefully handle potential errors, like if the file isn't found.
 4. **Save your file**
 5. **Run the script**
-![[Pasted image 20250703013835.png]]
+![Pasted image 20250703013835](https://github.com/user-attachments/assets/cc279d4d-0070-4586-8d2a-3d31bf06441c)
