@@ -18,18 +18,20 @@ By following this guide, you will:
 * **Visualize your data with Matplotlib:** Create simple charts and graphs.
 
 ---
+# Your First Python Data Processing Script
+
+...
 
 ### 📚 **How to Use This Guide**
 
 This tutorial is divided into sequential parts, each building on the knowledge gained in the previous one. **It is highly recommended to read and follow the parts in order.**
 
-* **`Part 1_Setup_Environment.md`**: Getting Python and VS Code installed on your system.
-* **`Part 2_Workspace_Virtual_Env.md`**: Setting up your project folder and creating an isolated virtual environment.
-* **`Part 3_First_Scripts_Data_Viz.md`**: Writing your initial Python code, working with Pandas DataFrames, and creating simple plots with Matplotlib.
-* **`Part 4_Programming_Fundamentals.md`**: Diving deeper into core programming concepts like how scripts run, variables, data types, and Python's syntax rules.
+* **[Part 1: Setting Up Your Environment](Part%201_Setup_Environment.md)**: Getting Python and VS Code installed on your system.
+* **[Part 2: Workspace & Virtual Env](Part%202_Workspace_Virtual_Env.md)**: Setting up your project folder and creating an isolated virtual environment.
+* **[Part 3: First Scripts & Data Viz](Part%203_First_Scripts_Data_Viz.md)**: Writing your initial Python code, working with Pandas DataFrames, and creating simple plots with Matplotlib.
+* **[Part 4: Programming Fundamentals](Part%204_Programming_Fundamentals.md)**: Diving deeper into core programming concepts like how scripts run, variables, data types, and Python's syntax rules.
 
-**All code examples and sample data files mentioned in the tutorial documents can be found in the `example_code/` folder.** Make sure to reference this folder as you follow along!
-
+...
 ---
 
 ### 🚀 **Getting Started**
