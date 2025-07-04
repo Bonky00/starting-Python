@@ -21,17 +21,17 @@ By following this guide, you will:
 # Your First Python Data Processing Script
 
 ...
-
 ### 📚 **How to Use This Guide**
 
 This tutorial is divided into sequential parts, each building on the knowledge gained in the previous one. **It is highly recommended to read and follow the parts in order.**
 
-* **[Part 1: Setting Up Your Environment](Part%201_Setup_Environment.md)**: Getting Python and VS Code installed on your system.
-* **[Part 2: Workspace & Virtual Env](Part%202_Workspace_Virtual_Env.md)**: Setting up your project folder and creating an isolated virtual environment.
-* **[Part 3: First Scripts & Data Viz](Part%203_First_Scripts_Data_Viz.md)**: Writing your initial Python code, working with Pandas DataFrames, and creating simple plots with Matplotlib.
-* **[Part 4: Programming Fundamentals](Part%204_Programming_Fundamentals.md)**: Diving deeper into core programming concepts like how scripts run, variables, data types, and Python's syntax rules.
+* **[Part 1 - Getting Started](Part%201%20-%20Getting%20Started.md)**: Getting Python and VS Code installed on your system.
+* **[Part 2 - Setting Up Your First Python Workspace in VS Code](Part%202%20-%20Setting%20Up%20Your%20First%20Python%20Workspace%20in%20VS%20Code.md)**: Setting up your project folder and creating an isolated virtual environment.
+* **[Part 3 - Your first python scripts - "Hello, Data!"](Part%203%20-%20Your%20first%20python%20scripts%20-%20%22Hello,%20Data!%22.md)**: Writing your initial Python code, working with Pandas DataFrames, and creating simple plots with Matplotlib.
+* **[Part 4 - Understanding the Basics - How Python Programs Work, pt.1](Part%204%20-%20Understanding%20the%20Basics%20-%20How%20Python%20Programs%20Work,%20pt.1.md)**: Diving deeper into core programming concepts like how scripts run, variables, data types, and Python's syntax rules.
 
-...
+**All code examples and sample data files mentioned in the tutorial documents can be found in the `example_code/` folder.** Make sure to reference this folder as you follow along!
+
 ---
 
 ### 🚀 **Getting Started**
