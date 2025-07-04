@@ -1,3 +1,4 @@
+# Part 3 - Your first python scripts - "Hello, Data!"
 Now that your workspace is set up and your virtual environment is active, it's time to write some Python code! We'll start with a classic "Hello, World!" and then quickly move on to a simple data example using powerful Python libraries.
 
 ### Step 1: Your Very First Python Script - "Hello, World!"
