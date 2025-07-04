@@ -1,3 +1,4 @@
+# Part 2 - Setting Up Your First Python Workspace in VS Code
 Now that you have Python and VS Code installed, let's create a simple workspace to keep your files organized and write your first Python script.
 
 ### Step 1: Create a Project Folder
