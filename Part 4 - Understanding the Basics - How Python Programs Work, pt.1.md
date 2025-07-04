@@ -148,4 +148,47 @@ A function is a named block of code that performs a specific task. Think of it l
   - Calling a Function: You call a function by its name, followed by parentheses (). If the function needs any information to do its job, you put that information (called "arguments" or "parameters") inside the parentheses.
     -   will expand on this later
 
+- Python-Specific Fundamentals
+Now, let's look at a couple of things that are particularly important in Python.
+  - Indentation: The Backbone of Python's Structure
   
+  This is perhaps the most unique and important rule in Python! Unlike many other programming languages that use curly braces {} or keywords like END to define blocks of code (like what belongs inside a function or a loop), Python uses indentation (spaces or tabs).
+  - Consistency is Key: All lines belonging to the same block of code must have the same level of indentation. The standard is 4 spaces.
+  - Example (we'll cover if statements later, but notice the indentation):
+  ```python
+  # This is outside any block
+  x = 10
+  
+  if x > 5:          # This line ends with a colon (:) to indicate a new block is starting
+      print("x is greater than 5") # This line is indented by 4 spaces
+      print("This is also part of the 'if' block") # This line is also indented by 4 spaces
+  print("This line is outside the 'if' block") # This line is NOT indented, so it runs after the 'if' block finishes
+  ```
+  - VS Code Helps: Thankfully, VS Code is smart and will automatically indent for you when you press Enter after a line ending with a colon (:) or when you're writing code that expects indentation.
+- Import Statements: Bringing in External Power
+
+  You've already used `import pandas as pd` and `import matplotlib.pyplot as plt`. These are import statements.
+  - Purpose: They allow you to use code (functions, classes, etc.) that someone else has written and organized into a module or package (like Pandas and Matplotlib).
+  - `as pd` and `as plt`: These create a shorter, easier-to-type "alias" (nickname) for the imported module. So, instead of typing `pandas.DataFrame`, you can type `pd.DataFrame`.
+
+- Basic Operators
+
+  You'll use these constantly to perform operations on data.
+  - Arithmetic Operators: For numbers.
+
+    - + (Addition): `5 + 3` results in 8
+
+    - `-` (Subtraction): `10 - 4` results in 6
+
+    - `*` (Multiplication): `2 * 6` results in 12
+
+    - `/` (Division): `15 / 3` results in `5.0` (always a float)
+
+    - `**` (Exponentiation): `2 ** 3` results in 8 (2 to the power of 3)
+  - Comparison Operators: Used to compare values; they always result in a `True` or `False` (Boolean) value.
+  - `==` (Equal to): `5 == 5` is `True`, `5 == 6` is `False`
+  - `!=` (Not equal to): `5 != 6` is `True`
+  - `<` (Less than): `3 < 7` is `True`
+  - `>`(Greater than): `8 > 2` is `True`
+  - `<=` (Less than or equal to)
+  - `>=` (Greater than or equal to)
