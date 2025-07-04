@@ -1,4 +1,4 @@
-# Setting Up the Environment
+# Part 1 - Getting Started
 ## Step 1: Install Python
 
 
