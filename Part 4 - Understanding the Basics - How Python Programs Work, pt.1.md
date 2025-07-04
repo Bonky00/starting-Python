@@ -171,24 +171,32 @@ Now, let's look at a couple of things that are particularly important in Python.
   - Purpose: They allow you to use code (functions, classes, etc.) that someone else has written and organized into a module or package (like Pandas and Matplotlib).
   - `as pd` and `as plt`: These create a shorter, easier-to-type "alias" (nickname) for the imported module. So, instead of typing `pandas.DataFrame`, you can type `pd.DataFrame`.
 
-- Basic Operators
-
-  You'll use these constantly to perform operations on data.
+- **Basic Operators:** You'll use these constantly to perform operations on data.
   - Arithmetic Operators: For numbers.
 
     - + (Addition): `5 + 3` results in 8
-
     - `-` (Subtraction): `10 - 4` results in 6
-
     - `*` (Multiplication): `2 * 6` results in 12
-
     - `/` (Division): `15 / 3` results in `5.0` (always a float)
-
     - `**` (Exponentiation): `2 ** 3` results in 8 (2 to the power of 3)
-  - Comparison Operators: Used to compare values; they always result in a `True` or `False` (Boolean) value.
+
+- **Comparison Operators:** Used to compare values; they always result in a `True` or `False` (Boolean) value.
   - `==` (Equal to): `5 == 5` is `True`, `5 == 6` is `False`
   - `!=` (Not equal to): `5 != 6` is `True`
   - `<` (Less than): `3 < 7` is `True`
   - `>`(Greater than): `8 > 2` is `True`
   - `<=` (Less than or equal to)
   - `>=` (Greater than or equal to)
+ 
+- Basic Python Data Structures (Briefly)
+You've already interacted with a couple of these:
+  - Lists: An ordered collection of items. You can put anything in a list, and items are accessed by their position (index).
+  ```python
+  my_list = [10, "hello", 3.14, True]
+  print(my_list[0]) # Prints 10 (lists are 0-indexed, meaning the first item is at position 0)
+  ```
+  - Dictionaries: An unordered collection of "key-value" pairs. Each item has a unique "key" that you use to find its associated "value." This is what we used to create our Pandas DataFrame data!
+  ```python
+  person = {"name": "Alice", "age": 30, "city": "New York"}
+  print(person["name"]) # Prints "Alice"
+  ```
