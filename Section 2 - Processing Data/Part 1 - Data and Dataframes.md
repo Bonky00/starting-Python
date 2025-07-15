@@ -33,7 +33,7 @@ import pandas as pd
 
 - This will import the `pandas `package, with the 'nickname' of `pd` (so we don't have to type out the full word each time we want to use it.)
 
-To load the data into a dataframe, we can use use the following line to create a vaiables called `df_text` and `df_csv`, and assign the data from their respective files into the a `DaraFrame`format.
+To load the data into a dataframe, we can use use the following line to create a vaiables called `df_text` and `df_csv`, and assign the data from their respective files into the a `DataFrame`format.
 
 ```python
 import os # We'll need this to handle file paths correctly
