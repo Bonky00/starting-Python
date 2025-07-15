@@ -39,7 +39,7 @@ This tutorial is divided into section with sequential parts, each building on th
 ### Section 2 - Processing Data
 
 - **[Part 1 - Data and Dataframes](Section%202%20-%20Processing%20Data/Part%201%20-%20Data%20and%20Dataframes.md)**: Getting Python and VS Code installed on your system.
-
+- **[Part 2 - Plotting and Graphing](Section%202%20-%20Processing%20Data/Part%201%20-%20Plotting%20and%20Graphing.md)**:
 ---
 
 ### 🚀 **Getting Started**
