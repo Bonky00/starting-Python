@@ -29,7 +29,7 @@ This tutorial is divided into section with sequential parts, each building on th
 
 ### Section 0
 
-This section is a preamble for the rest of the guide. It explains what coding is, why its important, and why we are focusing on using Python as a beginner luanguage. [Preamble](Section 0 - Preamble/Preamble.md)
+This section is a preamble for the rest of the guide. It explains what coding is, why its important, and why we are focusing on using Python as a beginner luanguage. **[Preamble](/Section%200%20-%20Preamble/Preamble.md)**
 
 ### Section 1
 
