@@ -26,6 +26,11 @@ By following this guide, you will:
 ### 📚 **How to Use This Guide**
 
 This tutorial is divided into section with sequential parts, each building on the knowledge gained in the previous one. **It is highly recommended to read and follow the parts in order.**
+### Section 0
+
+This section is a preamble for the rest of the guide. It explains what coding is, why its important, and why we are focusing on using Python as a beginner luanguage. 
+
+
 
 ### Section 1
 
