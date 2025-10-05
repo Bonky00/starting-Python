@@ -1,5 +1,12 @@
 # Part 2 - Plotting and Graphing
 
+
+[Previous Part: PData and Dataframes](https://github.com/Bonky00/starting-Python/blob/main/Section%202%20-%20Processing%20Data/Part%201%20-%20Data%20and%20Dataframes.md)
+
+[Example Code Folder](https://github.com/Bonky00/starting-Python/tree/main/Section%202%20-%20Processing%20Data/example_code)
+
+---
+
 In this part, we will scratch the surface on using `matplotlib` to present data, using some of its most common features.
 
 We will use the following lines of code at the beginning of the script to generate random data each time the script is run. This ensures that every time you execute the script, you'll see a slightly different distribution in the plots, making it a good way to demonstrate plotting without relying on external data files for this section.
@@ -187,6 +194,17 @@ plt.savefig(output_file_path)
 print(f"\nPlot saved to: {output_file_path}")
 ```
 
-Change some of the script and re-run it. Play arouns with colors and formatting.
+Change some of the script and re-run it; feel free to play around with colors and formatting.
+
 
 **_Here are the matplotlib example pages_**: [Matplotlib Example Website Link](https://matplotlib.org/stable/gallery/index.html)
+
+
+
+---
+
+[Previous Part: PData and Dataframes](https://github.com/Bonky00/starting-Python/blob/main/Section%202%20-%20Processing%20Data/Part%201%20-%20Data%20and%20Dataframes.md)
+
+[Example Code Folder](https://github.com/Bonky00/starting-Python/tree/main/Section%202%20-%20Processing%20Data/example_code)
+
+---
