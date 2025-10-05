@@ -38,7 +38,7 @@ This section is a preamble for the rest of the guide. It explains what coding is
 - **[Part 3 - Your first python scripts - "Hello, Data!"](PSection%201%20-%20Getting%20Started/art%203%20-%20Your%20first%20python%20scripts%20-%20%22Hello,%20Data!%22.md)**: Writing your initial Python code, working with Pandas DataFrames, and creating simple plots with Matplotlib.
 - **[Part 4 - Understanding the Basics - How Python Programs Work, pt.1](Section%201%20-%20Getting%20Started/Part%204%20-%20Understanding%20the%20Basics%20-%20How%20Python%20Programs%20Work,%20pt.1.md)**: Diving deeper into core programming concepts like how scripts run, variables, data types, and Python's syntax rules.
 
-**All code examples and sample data files mentioned in the tutorial documents can be found in the [`Section 1- Getting Started/example_code`](./Section%201-%20Getting%20Started/example_code) folder.** Make sure to reference this folder as you follow along!
+**All code examples and sample data files mentioned in the tutorial documents can be found in the [`Section 1- Getting Started/example_code`](./Section%201-%20Getting%20Started/example_code/) folder.** Make sure to reference this folder as you follow along!
 
 ### Section 2 - Processing Data
 
