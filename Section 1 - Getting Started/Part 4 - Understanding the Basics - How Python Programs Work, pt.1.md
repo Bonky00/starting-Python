@@ -1,5 +1,12 @@
 ## Part 4: Understanding the Basics - How Python Programs Work
 
+[Previous Part: Part 3](../example_code/)
+
+[Example Code Files](Part%204%20-%20Understanding%20the%20Basics%20-%20How%20Python%20Programs%20Work%2C%20pt.1.md)
+
+---
+
+
 You've already written and run several Python scripts! That's a huge achievement. Now, let's take a step back and understand the fundamental concepts behind what you've been doing. This knowledge will make it much easier to learn more complex programming concepts later on.
 
 ### 1. How a Python Script Runs: The Interpreter and Sequential Execution
@@ -145,3 +152,10 @@ You've already interacted with a couple of these:
     person = {"name": "Alice", "age": 30, "city": "New York"}
     print(person["name"]) # Prints "Alice"
     ```
+---
+
+[Previous Part: Part 3](../example_code/)
+
+[Example Code Files](Part%204%20-%20Understanding%20the%20Basics%20-%20How%20Python%20Programs%20Work%2C%20pt.1.md)
+
+---
