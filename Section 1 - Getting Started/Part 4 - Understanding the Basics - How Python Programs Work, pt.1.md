@@ -1,8 +1,8 @@
 ## Part 4: Understanding the Basics - How Python Programs Work
 
-[Previous Part: Part 3](../example_code/)
+[Previous Part: Part 3](Part%203%20-%20Your%20first%20python%20scripts%20-%20%22Hello%2C%20Data!%22.md)
 
-[Example Code Files](Part%204%20-%20Understanding%20the%20Basics%20-%20How%20Python%20Programs%20Work%2C%20pt.1.md)
+[Example Code Files](../Section%201%20-%20Getting%20Started/example_code)
 
 ---
 
