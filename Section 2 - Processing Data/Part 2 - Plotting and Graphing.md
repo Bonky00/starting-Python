@@ -1,7 +1,7 @@
 # Part 2 - Plotting and Graphing
 
 
-[Previous Part: PData and Dataframes](https://github.com/Bonky00/starting-Python/blob/main/Section%202%20-%20Processing%20Data/Part%201%20-%20Data%20and%20Dataframes.md)
+[Previous Part: Data and Dataframes](https://github.com/Bonky00/starting-Python/blob/main/Section%202%20-%20Processing%20Data/Part%201%20-%20Data%20and%20Dataframes.md)
 
 [Example Code Folder](https://github.com/Bonky00/starting-Python/tree/main/Section%202%20-%20Processing%20Data/example_code)
 
@@ -203,7 +203,7 @@ Change some of the script and re-run it; feel free to play around with colors an
 
 ---
 
-[Previous Part: PData and Dataframes](https://github.com/Bonky00/starting-Python/blob/main/Section%202%20-%20Processing%20Data/Part%201%20-%20Data%20and%20Dataframes.md)
+[Previous Part: Data and Dataframes](https://github.com/Bonky00/starting-Python/blob/main/Section%202%20-%20Processing%20Data/Part%201%20-%20Data%20and%20Dataframes.md)
 
 [Example Code Folder](https://github.com/Bonky00/starting-Python/tree/main/Section%202%20-%20Processing%20Data/example_code)
 
