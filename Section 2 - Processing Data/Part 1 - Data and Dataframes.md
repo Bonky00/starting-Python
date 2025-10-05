@@ -1,6 +1,7 @@
 # Part 1 - Data and Dataframes
 
 [Next Part: Plotting and Graphing](https://github.com/Bonky00/starting-Python/blob/main/Section%202%20-%20Processing%20Data/Part%202%20-%20Plotting%20and%20Graphing.md)
+
 [Example Code Folder](https://github.com/Bonky00/starting-Python/tree/main/Section%202%20-%20Processing%20Data/example_code)
 
 ---
@@ -223,6 +224,7 @@ Now that we have the theory and the code snippets, let's put it all together and
 ---
 
 [Next Part: Plotting and Graphing](https://github.com/Bonky00/starting-Python/blob/main/Section%202%20-%20Processing%20Data/Part%202%20-%20Plotting%20and%20Graphing.md)
+
 [Example Code Folder](https://github.com/Bonky00/starting-Python/tree/main/Section%202%20-%20Processing%20Data/example_code)
 
 ---
