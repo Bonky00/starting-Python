@@ -1,4 +1,12 @@
 # Part 3 - Your first python scripts - "Hello, Data!"
+
+[Previous Part: Part 2](Part%202%20-%20Setting%20Up%20Your%20First%20Python%20Workspace%20in%20VS%20Code.md)
+
+[Example Code Folder](../example_code/)
+
+---
+
+
 Now that your workspace is set up and your virtual environment is active, it's time to write some Python code! We'll start with a classic "Hello, World!" and then quickly move on to a simple data example using powerful Python libraries.
 
 ### Step 1: Your Very First Python Script - "Hello, World!"
@@ -17,10 +25,11 @@ print("Hello, World!")
 4. **Run Your Script:**   
 	- **Option 1: Click Run Python File at the top of the file.** 
 
-	![Pasted image 20250703012026](https://github.com/user-attachments/assets/2003b663-5023-4ac9-9731-e90721958417)
+		![Pasted image 20250703012026](https://github.com/user-attachments/assets/2003b663-5023-4ac9-9731-e90721958417)
 
 	-  **Option 2: Open the Integrated Terminal:** If your terminal is not open, go to **Terminal > New Terminal**. Make sure your virtual environment `(venv)` is active at the beginning of the prompt.
-    ![Pasted image 20250703010941](https://github.com/user-attachments/assets/4b0e03f5-5e5f-4293-89d3-ee2a999ea107)
+
+    	![Pasted image 20250703010941](https://github.com/user-attachments/assets/4b0e03f5-5e5f-4293-89d3-ee2a999ea107)
 
 
 
@@ -84,43 +93,44 @@ First, we need to install Matplotlib into our virtual environment.
 	- Similar to Pandas, `pip` will download and install Matplotlib.
 2. **Create a New Python File:** In your VS Code Explorer, create a new file in your `my_first_python_project` folder and name it `data_plot.py`.    
 3. **Write the Plotting Code:** In `data_plot.py`, type the following code. We'll reuse our Pandas DataFrame data for this.
-```python
-import pandas as pd
-import matplotlib.pyplot as plt # This imports the plotting module
-
-# Create the same sample data
-data = {
-    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
-    'Age': [24, 27, 22, 32],
-    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston']
-}
-df = pd.DataFrame(data)
-
-# --- Let's create a simple bar chart of Ages ---
-plt.figure(figsize=(8, 5)) # Create a figure (the overall window for the plot)
-plt.bar(df['Name'], df['Age'], color='skyblue') # Create a bar chart: Names on X, Ages on Y
-
-plt.xlabel('Person') # Label for the horizontal axis
-plt.ylabel('Age')    # Label for the vertical axis
-plt.title('Ages of Our Friends') # Title of the plot
-plt.grid(axis='y', linestyle='--', alpha=0.7) # Add a light grid for readability
-
-plt.show() # Display the plot! This command is essential to make the plot appear
-
-# --- Let's create a scatter plot of Age vs. a hypothetical 'Score' ---
-# (Let's add a 'Score' column to our DataFrame for this example)
-df['Score'] = [85, 92, 78, 95]
-
-plt.figure(figsize=(8, 5))
-plt.scatter(df['Age'], df['Score'], color='red', s=100, alpha=0.8, edgecolors='black') # s is size of points
-plt.xlabel('Age')
-plt.ylabel('Score')
-plt.title('Age vs. Score for Our Friends')
-plt.grid(True) # Add a grid
-plt.savefig("example image.png") #This will save the image in the  working folder!
-plt.show() # Display this plot too!
-
-```
+	
+	```python
+	import pandas as pd
+	import matplotlib.pyplot as plt # This imports the plotting module
+	
+	# Create the same sample data
+	data = {
+	    'Name': ['Alice', 'Bob', 'Charlie', 'David'],
+	    'Age': [24, 27, 22, 32],
+	    'City': ['New York', 'Los Angeles', 'Chicago', 'Houston']
+	}
+	df = pd.DataFrame(data)
+	
+	# --- Let's create a simple bar chart of Ages ---
+	plt.figure(figsize=(8, 5)) # Create a figure (the overall window for the plot)
+	plt.bar(df['Name'], df['Age'], color='skyblue') # Create a bar chart: Names on X, Ages on Y
+	
+	plt.xlabel('Person') # Label for the horizontal axis
+	plt.ylabel('Age')    # Label for the vertical axis
+	plt.title('Ages of Our Friends') # Title of the plot
+	plt.grid(axis='y', linestyle='--', alpha=0.7) # Add a light grid for readability
+	
+	plt.show() # Display the plot! This command is essential to make the plot appear
+	
+	# --- Let's create a scatter plot of Age vs. a hypothetical 'Score' ---
+	# (Let's add a 'Score' column to our DataFrame for this example)
+	df['Score'] = [85, 92, 78, 95]
+	
+	plt.figure(figsize=(8, 5))
+	plt.scatter(df['Age'], df['Score'], color='red', s=100, alpha=0.8, edgecolors='black') # s is size of points
+	plt.xlabel('Age')
+	plt.ylabel('Score')
+	plt.title('Age vs. Score for Our Friends')
+	plt.grid(True) # Add a grid
+	plt.savefig("example image.png") #This will save the image in the  working folder!
+	plt.show() # Display this plot too!
+	
+	```
 
 ### Step 4: Reading Data from a File - CSV to DataFrame
 
@@ -144,33 +154,40 @@ Let's learn how to read a CSV file directly into a Pandas DataFrame.
 
 2. **Create a New Python File for Reading CSV:** In your VS Code Explorer, create another new file in your `my_first_python_project` folder and name it `read_csv.py`.
 3. **Write the CSV Reading Code:** In `read_csv.py`, type the following code:
-```python
-import pandas as pd # We still need pandas to work with DataFrames
-
-# Define the path to our CSV file.
-# Since 'sample_data.csv' is in the same folder as 'read_csv.py',
-# we just need its name.
-file_path = 'sample_data.csv'
-
-try:
-    # Read the CSV file into a Pandas DataFrame
-    df_from_csv = pd.read_csv(file_path)
-
-    print(f"Successfully loaded data from '{file_path}':")
-    print(df_from_csv)
-
-    # You can now work with this DataFrame just like before!
-    print("\nPeople from New York:")
-    print(df_from_csv[df_from_csv['City'] == 'New York'])
-
-except FileNotFoundError:
-    print(f"Error: The file '{file_path}' was not found. Make sure it's in the same folder as your script.")
-except Exception as e:
-    print(f"An error occurred: {e}")
-```
+	```python
+	import pandas as pd # We still need pandas to work with DataFrames
+	
+	# Define the path to our CSV file.
+	# Since 'sample_data.csv' is in the same folder as 'read_csv.py',
+	# we just need its name.
+	file_path = 'sample_data.csv'
+	
+	try:
+	    # Read the CSV file into a Pandas DataFrame
+	    df_from_csv = pd.read_csv(file_path)
+	
+	    print(f"Successfully loaded data from '{file_path}':")
+	    print(df_from_csv)
+	
+	    # You can now work with this DataFrame just like before!
+	    print("\nPeople from New York:")
+	    print(df_from_csv[df_from_csv['City'] == 'New York'])
+	
+	except FileNotFoundError:
+	    print(f"Error: The file '{file_path}' was not found. Make sure it's in the same folder as your script.")
+	except Exception as e:
+	    print(f"An error occurred: {e}")
+	```
 - `pd.read_csv()` is a powerful Pandas function that reads data from a CSV file and automatically turns it into a DataFrame.    
 - We've added a `try...except` block. This is a good programming practice to gracefully handle potential errors, like if the file isn't found.
 4. **Save your file**
 5. **Run the script**
 ![Pasted image 20250703013835](https://github.com/user-attachments/assets/7858e43c-dc53-43cd-b061-3c579f67250e)
 
+---
+
+[Previous Part: Part 2](Part%202%20-%20Setting%20Up%20Your%20First%20Python%20Workspace%20in%20VS%20Code.md)
+
+[Example Code Folder](../example_code/)
+
+---
