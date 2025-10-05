@@ -2,7 +2,7 @@
 
 [Previous Part: Part 2](Part%202%20-%20Setting%20Up%20Your%20First%20Python%20Workspace%20in%20VS%20Code.md)
 
-[Example Code Folder](../example_code/)
+[Next Part: Part 4](Part%204%20-%20Understanding%20the%20Basics%20-%20How%20Python%20Programs%20Work%2C%20pt.1.md)
 
 ---
 
@@ -188,6 +188,6 @@ Let's learn how to read a CSV file directly into a Pandas DataFrame.
 
 [Previous Part: Part 2](Part%202%20-%20Setting%20Up%20Your%20First%20Python%20Workspace%20in%20VS%20Code.md)
 
-[Example Code Folder](../example_code/)
+[Next Part: Part 4](Part%204%20-%20Understanding%20the%20Basics%20-%20How%20Python%20Programs%20Work%2C%20pt.1.md)
 
 ---
