@@ -1,6 +1,11 @@
 # Part 1 - Getting Started
-## Step 1: Install Python
 
+[Next Part: Part 2](Part%202%20-%20Setting%20Up%20Your%20First%20Python%20Workspace%20in%20VS%20Code.md)
+
+---
+
+
+## Step 1: Install Python
 
 1. Open your web browser and go to the **Official Python Website** [python.org](https://www.python.org/downloads/).
 2. **Download the Latest Version:** You'll see a button to download the latest version of Python. Click on it. As of today, the latest stable release is Python 3.13.5.
@@ -38,3 +43,9 @@ VS Code is highly customisable through extensions. To make it work best for Pyth
     - This extension provides features like code completion, debugging, linting, and more, which are incredibly helpful for writing Python code
 
 ![Pasted image 20250703003758](https://github.com/user-attachments/assets/be4120fb-2b18-4c0c-a0fb-60a3f9cbb49b)
+
+---
+
+[Next Part: Part 2](Part%202%20-%20Setting%20Up%20Your%20First%20Python%20Workspace%20in%20VS%20Code.md)
+
+---
