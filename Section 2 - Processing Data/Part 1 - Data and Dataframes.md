@@ -1,5 +1,10 @@
 # Part 1 - Data and Dataframes
 
+[Next Part: Plotting and Graphing](https://github.com/Bonky00/starting-Python/blob/main/Section%202%20-%20Processing%20Data/Part%202%20-%20Plotting%20and%20Graphing.md)
+[Example Code Folder](https://github.com/Bonky00/starting-Python/tree/main/Section%202%20-%20Processing%20Data/example_code)
+
+---
+
 ## Overview
 
 A very common way to access and manipulate data is through a Python package named `pandas` and creating what is known as a `DataFrame`.
@@ -214,3 +219,10 @@ Now that we have the theory and the code snippets, let's put it all together and
 
     - **Plot Window:** A new window will appear displaying two scatter plots side-by-side. The left plot will show the data from `random_data.txt` (in blue), and the right plot will show the data from `random_data.csv` (in red). This visualization helps you quickly understand the distribution and relationship of the 'Column1' and 'Column2' values in each dataset.
     - **Image File Output:** A new image file named `data_visualization.png `will be created in the same directory as your `data_processing_example.py` script. Open this image file to view the two scatter plots side-by-side.
+
+---
+
+[Next Part: Plotting and Graphing](https://github.com/Bonky00/starting-Python/blob/main/Section%202%20-%20Processing%20Data/Part%202%20-%20Plotting%20and%20Graphing.md)
+[Example Code Folder](https://github.com/Bonky00/starting-Python/tree/main/Section%202%20-%20Processing%20Data/example_code)
+
+---
