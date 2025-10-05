@@ -1,7 +1,14 @@
 # Part 2 - Setting Up Your First Python Workspace in VS Code
+
+[Previous Part: Part 1](Part%201%20-%20Getting%20Started.md )
+
+[Next Part: Part 3](Part%203%20-%20Your%20first%20python%20scripts%20-%20%22Hello%2C%20Data!%22.md)
+
+---
+
 Now that you have Python and VS Code installed, let's create a simple workspace to keep your files organized and write your first Python script.
 
-### Step 1: Create a Project Folder
+## Step 1: Create a Project Folder
 
 It's a good practice to create a dedicated folder for each of your programming projects. This keeps your files tidy and makes it easy to find everything.
 1. **Create a New Folder:** Go to a location on your computer where you want to store your projects (e.g., your Documents folder, or create a new "Projects" folder on your Desktop).    
@@ -9,7 +16,7 @@ It's a good practice to create a dedicated folder for each of your programming p
     - **Pro Tip:** Avoid spaces in your folder names. If you need to separate words, use underscores (e.g., `my_project` instead of `my project`). This can prevent issues with some tools later on.
         
 
-### Step 2: Open Your Project Folder in VS Code
+## Step 2: Open Your Project Folder in VS Code
 
 Now, let's tell VS Code about this new project folder.
 1. **Open VS Code:** If it's not already open, launch Visual Studio Code.    
@@ -19,10 +26,11 @@ Now, let's tell VS Code about this new project folder.
     - Click **"Select Folder"** (or **"Open"** on macOS).        
 3. **Trust the Workspace (if prompted):** VS Code might ask if you "trust the authors of the files in this folder." Since you just created it, you can safely click **"Yes, I trust the authors"** or **"Trust Folder and Enable All Features."** This allows VS Code to enable full functionality for your project.
     
-You'll now see your project folder listed in the **Explorer** sidebar on the left side of VS Code. This is where you'll see all your project files and folders.
-![Pasted image 20250703004707](https://github.com/user-attachments/assets/312a30c7-698d-4555-b43f-211ad157b2ca)
+	You'll now see your project folder listed in the **Explorer** sidebar on the left side of VS Code. This is where you'll see all your project files and folders.
 
-### Step 3: Create Your First Python File
+	![Pasted image 20250703004707](https://github.com/user-attachments/assets/312a30c7-698d-4555-b43f-211ad157b2ca)
+
+## Step 3: Create Your First Python File
 
 Now let's create the actual Python file where you'll write your code.
 
@@ -34,10 +42,10 @@ Now let's create the actual Python file where you'll write your code.
     - Press Enter.
         
 
-You'll now see `hello_world.py` listed under your `my_first_python_project` folder in the Explorer, and a new empty editor tab will open on the right, ready for you to type your Python code!
-![Pasted image 20250703004842](https://github.com/user-attachments/assets/8b6692eb-9152-4807-b064-19f20896e4c6)
+	You'll now see `hello_world.py` listed under your `my_first_python_project` folder in the Explorer, and a new empty editor tab will open on the right, ready for you to type your Python code!
+	![Pasted image 20250703004842](https://github.com/user-attachments/assets/8b6692eb-9152-4807-b064-19f20896e4c6)
 
-### Step 4:  Select Your Python Interpreter
+## Step 4:  Select Your Python Interpreter
 
 VS Code needs to know _which_ Python installation to use for your project, especially if you have multiple versions on your system.
 
@@ -50,10 +58,10 @@ NOTE: This may be detected automatically, but always good to make sure when star
     - Click on the Python version displayed (the numbers) in the status bar (e.g., `Python 3.13.5 64-bit`).        
     - A list of detected Python interpreters will appear at the top of your VS Code window. Select the one you just installed (it will likely be the latest version of Python 3, often labeled as `Recommended`).        
 
-This step ensures that VS Code is using the correct Python installation to run your scripts.
-![Pasted image 20250703005136](https://github.com/user-attachments/assets/f451cb05-3b4f-493d-ab2e-1db63fe53b92)
+	This step ensures that VS Code is using the correct Python installation to run your scripts.
+	![Pasted image 20250703005136](https://github.com/user-attachments/assets/f451cb05-3b4f-493d-ab2e-1db63fe53b92)
 
-### Step 5: Optional but Recommended to keep work neat and clean - Create a Python Virtual Environment
+## Step 5: Optional but Recommended to keep work neat and clean - Create a Python Virtual Environment
 
 **What is a Virtual Environment and Why Do We Need It?**
 
@@ -83,9 +91,17 @@ A Python **virtual environment** is like creating a separate, isolated box for e
 	- You will see a new colder in the working folder. This is where all of the project specific '.venv' files will be stored. You will not need to touch anything in there.
 	- Additionally you will know you are working in the virtual environment because the python interpreter will have changed to the version you selected with (venv) in the name
 
-![Pasted image 20250703005955](https://github.com/user-attachments/assets/3b1aae1a-6c11-4644-858c-17766afa87b4)
+	![Pasted image 20250703005955](https://github.com/user-attachments/assets/3b1aae1a-6c11-4644-858c-17766afa87b4)
 
-![Pasted image 20250703010116](https://github.com/user-attachments/assets/f9b9825e-5443-4dad-85b6-4f25e8e26dd6)
+	![Pasted image 20250703010116](https://github.com/user-attachments/assets/f9b9825e-5443-4dad-85b6-4f25e8e26dd6)
+
+---
+
+[Previous Part: Part 1](Part%201%20-%20Getting%20Started.md )
+
+[Next Part: Part 3](Part%203%20-%20Your%20first%20python%20scripts%20-%20%22Hello%2C%20Data!%22.md)
+
+---
 
 
 
