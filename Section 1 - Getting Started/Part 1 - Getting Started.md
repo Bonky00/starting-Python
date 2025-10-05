@@ -3,7 +3,7 @@
 
 
 1. Open your web browser and go to the **Official Python Website** [python.org](https://www.python.org/downloads/).
-2. **Download the Latest Version:** You'll see a button to download the latest version of Python. Click on it. As of today, the latest stable release is Python 3.12.3.
+2. **Download the Latest Version:** You'll see a button to download the latest version of Python. Click on it. As of today, the latest stable release is Python 3.13.5.
 	- **For Windows:** Double-click the downloaded `.exe` file to start the installer.
 	- **Important!** Make sure to check the box that says **"Add python.exe to PATH"** at the very beginning of the installation process. This is crucial for your computer to find Python easily.
 	- Then, you can typically just click "Install Now" or "Next" through the rest of the prompts.
